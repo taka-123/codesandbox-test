@@ -10,6 +10,7 @@ const func1 = function (str) {
 };
 const func2 = (str) => str;
 
+console.log(func1("func１です"));
 console.log(func2("func2です"));
 
 const func3 = (num1, num2) => num1 + num2;
